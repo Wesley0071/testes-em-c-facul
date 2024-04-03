@@ -2,14 +2,14 @@
 #include <math.h>
 
 int main(){
-	int sobra,num;
+	int resto,num;
   	
 	printf ("digite um numero e descubra se e par ou impar ");
 	scanf("%d", &num);
 	
-	sobra = num % 2;
+	resto = num % 2;
 	
-	if (sobra == 0){
+	if (resto == 0){
 		printf("Seu numero e par");
 	}
 	else{
