@@ -9,7 +9,7 @@ int main(){
 	
 	sobra = num % 2;
 	
-	if (resto == 0){
+	if (sobra == 0){
 		printf("Seu numero e par");
 	}
 	else{
